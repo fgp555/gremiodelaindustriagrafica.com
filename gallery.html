@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es_PE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#347" />
+    <meta name="author" content="Frank GP" />
+    <meta name="site_locale" content="es_PE" />
+    <meta name="robots" content="index" />
+
+    <link rel="icon" href="img/logo.webp" sizes="256x256" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="314" />
+
+    <!-- Etiquetas Open Graph -->
+    <meta property="og:url" content="https://gremiodelaindustriagrafica.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gremio Nacional De La Industria Grafica" />
+    <meta
+      property="og:description"
+      content="La “ASOCIACIÓN GREMIO NACIONAL DE LA INDUSTRIA GRÁFICA” se constituye en primer lugar para apoyar y orientar a toda entidad educativa que formen profesionales de la Industria Gráfica y de esta manera dar a la Industria especialistas a la medida del sector gráfico."
+    />
+    <meta property="fb:app_id" content="1526445401046904" />
+
+    <title>Gremio Nacional De La Industria Grafica</title>
+    <meta
+      name="description"
+      content="La “ASOCIACIÓN GREMIO NACIONAL DE LA INDUSTRIA GRÁFICA” se constituye en primer lugar para apoyar y orientar a toda entidad educativa que formen profesionales de la Industria Gráfica y de esta manera dar a la Industria especialistas a la medida del sector gráfico."
+    />
+    <meta property="og:image" content="https://gremiodelaindustriagrafica.com/img/fb-cover.webp" />
+
+    <!-- assets -->
+    <link rel="stylesheet" href="https://frank-gp.github.io/icon/icomoon/style.css" />
+    <!-- <script type="module" src="script.js?10001"></script> -->
+
+    <script>
+      function importCss(cssName) {
+        const newDate_getTime_ = new Date().getTime();
+        const link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.type = "text/css";
+        link.href = `${cssName}?v=${newDate_getTime_}`;
+        document.head.appendChild(link);
+      }
+      function importJs(scriptName) {
+        const newDate_getTime_ = new Date().getTime();
+        const script = document.createElement("script");
+        script.src = `${scriptName}?v=${newDate_getTime_}`;
+        document.head.appendChild(script);
+      }
+
+      importCss("style.css");
+      importCss("slider.css");
+      importJs("script.js");
+      importJs("header.js");
+    </script>
+    <!-- <style>
+      body {
+        background-color: #e6d681;
+      }
+    </style> -->
+    <script src="https://frankgp.com/stats/send.js" type="module"></script>
+
+  </head>
+  <body>
+    <header>
+      <!-- <div class="head">
+        <div class="head-left">
+          <p><b>Local Principal :</b></p>
+          <p>Jr Maracaibo 2483 Urb. Perú</p>
+          <p>SAN MARTIN DE PORRES</p>
+        </div>
+
+        <img class="logo" src="img/logo.webp?1" alt="logo" />
+        <div class="head-right">
+          <a href="http://wa.me/51987785951" target="_blank" rel="noopener noreferrer">
+            <img class="img-whatsapp" src="img/whatsapp.webp?1" alt="whatsapp" />
+          </a>
+        </div>
+      </div> -->
+      <!-- <h2>GREMIO NACIONAL DE LA INDUSTRIA GRAFICA</h2> -->
+      <!-- <header-component></header-component> -->
+      <div class="desktop-none btn-menu" onclick="menu()">
+        <p><i class="icon-menu"></i> MENU</p>
+      </div>
+      <nav class="nav">
+        <div class="nav-left">
+          <a href="/">INICIO</a>
+          <a href="/nosotros.html">QUIENES SOMOS</a>
+          <a href="/objetivos.html">FINES y OBJETIVOS</a>
+        </div>
+        <div class="nav-right">
+          <a href="/gallery.html">LUCHA POR LA DEMOCRACIA - FOTOS</a>
+          <!-- <a href="/#fines-objetivos"></a> -->
+        </div>
+      </nav>
+      <script>
+        let _nav = document.querySelector(".nav");
+
+        function menu() {
+          _nav.style.display = _nav.style.display === "block" ? "none" : "block";
+        }
+      </script>
+
+      <!-- <div class="portada">
+        <img src="img/portada.webp?1" alt="portada" />
+      </div> -->
+    </header>
+    <main>
+      <!-- <section class="gallery">
+        <aside>
+          <h2>1.- FOTOS DE ACTA DE FUNDACIÓN</h2>
+          <div class="photos">
+            <img src="public/gallery/01_fundacion/01.webp" alt="" />
+            <img src="public/gallery/01_fundacion/02.webp" alt="" />
+            <img src="public/gallery/01_fundacion/03.webp" alt="" />
+          </div>
+        </aside>
+
+        <aside>
+          <h2>2.- FOTOS APOYANDO A CARLOS AÑAÑOS</h2>
+          <div class="photos">
+            <img src="public/gallery/02_carlos_ananos/05.webp" alt="" />
+            <img src="public/gallery/02_carlos_ananos/10.webp" alt="" />
+            <img src="public/gallery/02_carlos_ananos/07.webp" alt="" />
+            <img src="public/gallery/02_carlos_ananos/01.webp" alt="" />
+            <img src="public/gallery/02_carlos_ananos/03.webp" alt="" />
+          </div>
+        </aside>
+      </section> -->
+    </main>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <h2>1.- FOTOS DE ACTA DE FUNDACIÓN</h2>
+          <div class="photos">
+            <img src="public/gallery/01_fundacion/01.webp" alt="" />
+            <img src="public/gallery/01_fundacion/02.webp" alt="" />
+            <img src="public/gallery/01_fundacion/03.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>2.- FOTOS APOYANDO A CARLOS AÑAÑOS</h2>
+          <div class="photos">
+            <img src="public/gallery/02_carlos_ananos/05.webp" alt="" />
+            <img src="public/gallery/02_carlos_ananos/10.webp" alt="" />
+            <img src="public/gallery/02_carlos_ananos/07.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>2.1.- FOTOS APOYANDO A CARLOS AÑAÑOS</h2>
+          <div class="photos">
+            <img src="public/gallery/02_carlos_ananos/01.webp" alt="" />
+            <img src="public/gallery/02_carlos_ananos/03.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>3.- APOYANDO A LAS MYPES</h2>
+          <div class="photos">
+            <img src="public/gallery/03_mypes/02.webp" alt="" />
+            <img src="public/gallery/03_mypes/06.webp" alt="" />
+            <img src="public/gallery/03_mypes/09.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>3.1.- APOYANDO A LAS MYPES</h2>
+          <div class="photos">
+            <img src="public/gallery/03_mypes/10.webp" alt="" />
+            <img src="public/gallery/03_mypes/08.webp" alt="" />
+            <img src="public/gallery/03_mypes/05.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>4.- APOYANDO A GIULIANA HERRERA / ROGER AYACHI / FUNDACIÓN AMA SUA</h2>
+          <div class="photos">
+            <img src="public/gallery/04_roger_ayachi/07.webp" alt="" />
+            <img src="public/gallery/04_roger_ayachi/02.webp" alt="" />
+            <img src="public/gallery/04_roger_ayachi/06.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>4.1.- APOYANDO A GIULIANA HERRERA / ROGER AYACHI / FUNDACIÓN AMA SUA</h2>
+          <div class="photos">
+            <img src="public/gallery/04_roger_ayachi/01.webp" alt="" />
+            <img src="public/gallery/04_roger_ayachi/04.webp" alt="" />
+            <img src="public/gallery/04_roger_ayachi/05.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>5.- APOYANDO MARCHA POR LA PAZ Y LA DEMOCRACIA</h2>
+          <div class="photos">
+            <img src="public/gallery/05_paz_y_democracia/09.webp" alt="" />
+            <img src="public/gallery/05_paz_y_democracia/06.webp" alt="" />
+            <img src="public/gallery/05_paz_y_democracia/03.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>5.1.- APOYANDO MARCHA POR LA PAZ Y LA DEMOCRACIA</h2>
+          <div class="photos">
+            <img src="public/gallery/05_paz_y_democracia/04.webp" alt="" />
+            <img src="public/gallery/05_paz_y_democracia/08.webp" alt="" />
+            <img src="public/gallery/05_paz_y_democracia/02.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>6.- CON CLAUDIA TORO Y GIULIANA HERRERA EN EL EVENTO DE LAS MYPES</h2>
+          <div class="photos">
+            <img src="public/gallery/06_claudia_toro/02.webp" alt="" />
+            <img src="public/gallery/06_claudia_toro/01.webp" alt="" />
+            <img src="public/gallery/06_claudia_toro/03.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>7.- CON JUAN VITAL SECRETARIO GENERAL DEL SINDICATO TECNICO PROFESIONAL DEL SENATI</h2>
+          <div class="photos">
+            <img src="public/gallery/08_sindicato_2023/02.webp" alt="" />
+            <img src="public/gallery/07_docentes_del_senati/01.webp" alt="" />
+            <img src="public/gallery/08_sindicato_2023/01.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>7.1.- CON JUAN VITAL SECRETARIO GENERAL DEL SINDICATO TECNICO PROFESIONAL DEL SENATI</h2>
+          <div class="photos">
+            <a href="https://www.youtube.com/playlist?list=PLaVKnikygAWsaltbzILIoOuQdJToMEJZt" target="_blank" rel="noopener noreferrer">
+              <img class="icon-video-7" src="img/video.png" alt="" />
+            </a>
+            <style>
+              .icon-video-7 {
+                width: 10rem !important;
+              }
+            </style>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <h2>8.- EN LA SOCIEDAD NACIONAL DE INDUSTRIAS</h2>
+          <div class="photos">
+            <img src="public/gallery/09-industrias/03.webp" alt="" />
+            <img src="public/gallery/09-industrias/01.webp" alt="" />
+            <img src="public/gallery/09-industrias/04.webp" alt="" />
+            <img src="public/gallery/09-industrias/02.webp" alt="" />
+          </div>
+        </div>
+        <!-- <div class="swiper-slide">Slide 3</div> -->
+        <!-- ... -->
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+  </body>
+</html>
