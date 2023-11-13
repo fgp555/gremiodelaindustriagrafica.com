@@ -51,9 +51,12 @@
 
       importCss("style.css");
       importJs("script.js");
-      importJs("header.js");
     </script>
     <script src="https://frankgp.com/stats/send.js" type="module"></script>
+    <!-- Desactivar la caché del navegador -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
   </head>
   <body>
     <header>
@@ -97,35 +100,8 @@
     </header>
     <main>
       <div class="portada">
-        <!-- <img src="img/portada.webp?1" alt="portada" /> -->
-        <link rel="preload" as="image" href="img/portada.webp" />
-        <link rel="preload" as="image" href="img/portada2.webp" />
-        <style>
-          .hero {
-            color: white;
-            /* aspect-ratio: 16 / 9; */
-            aspect-ratio: 1640/624;
-            /* height: 8em; */
-            background-color: #558;
-            background-image: url(img/portada.webp);
-            background-size: cover;
-            background-position: center;
-
-            /* https://cubic-bezier.com/#0,0,0,1 */
-            animation: slides calc(2 * 5s) cubic-bezier(0, 0, 0, 3) 5s infinite;
-            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-            animation-play-state: running;
-            margin: 0;
-          }
-          @keyframes slides {
-            0% {
-              background-image: url(img/portada.webp);
-            }
-            50% {
-              background-image: url(img/portada2.webp);
-            }
-          }
-        </style>
+        <link rel="preload" as="image" href="img/portada.webp?1" />
+        <link rel="preload" as="image" href="img/portada2.webp?1" />
         <div class="hero"></div>
       </div>
     </main>

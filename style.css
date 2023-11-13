@@ -223,6 +223,24 @@ main .consejo-directivo {
 .desktop-none {
   display: none;
 }
+.hero {
+  color: white;
+  aspect-ratio: 1640/624;
+  background-color: #558;
+  background-image: url(img/portada.webp?1);
+  background-size: cover;
+  background-position: center;
+  animation: slides 10s cubic-bezier(0, 0, 0, 5) 0s infinite;
+  margin: 0;
+}
+@keyframes slides {
+  50% {
+    background-image: url(img/portada2.webp?1);
+  }
+  100% {
+    background-image: url(img/portada.webp?1);
+  }
+}
 @media (max-width: 80rem) {
   .head {
     flex-direction: column;
