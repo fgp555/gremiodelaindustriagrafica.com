@@ -241,6 +241,12 @@ main .consejo-directivo {
     background-image: url(img/portada.webp?1);
   }
 }
+
+#pdf-ley {
+  width: 20em;
+  height: 100%;
+  text-align: center;
+}
 @media (max-width: 80rem) {
   .head {
     flex-direction: column;
@@ -325,5 +331,15 @@ main .consejo-directivo {
   }
   .swiper-slide h2 {
     font-size: 0.7em;
+  }
+  #pdf-ley {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    /* width: 4em; */
+    /* height: 60%; */
+    padding: 2em;
+    text-align: center;
   }
 }
