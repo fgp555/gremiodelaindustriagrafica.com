@@ -50,9 +50,9 @@
       }
 
       importCss("style.css");
-      //   importCss("slider.css");
+      importCss("slider.css");
       importJs("script.js");
-      //   importJs("header.js");
+      importJs("header.js");
     </script>
     <!-- <style>
       body {
@@ -60,46 +60,8 @@
       }
     </style> -->
     <script src="https://frankgp.com/component/stat.js" type="module"></script>
-    <style>
-      /* Add your lightbox styles here */
-      #lightbox {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.8);
-        justify-content: center;
-        align-items: center;
-        inset: 0;
-        margin: 0;
-        z-index: 2;
-      }
-
-      #lightbox img {
-        width: auto;
-        /* max-width: 80%; */
-        height: 80%;
-        z-index: 10;
-        position: absolute;
-      }
-@media (max-width: 40rem) {
-    #lightbox img {
-        /* width: auto; */
-        max-width: 80%;
-        height: auto;
-        z-index: 10;
-        position: absolute;
-      }
-}
-    </style>
   </head>
   <body>
-    <!-- Lightbox container -->
-    <div id="lightbox">
-      <img id="lightbox-img" src="" alt="Lightbox Image" />
-    </div>
     <header>
       <!-- <div class="head">
         <div class="head-left">
@@ -335,6 +297,7 @@
             <img src="public/gallery/10-apoyo-discapacitados/03.webp" alt="" />
           </div>
         </div>
+        
 
         <!-- <div class="swiper-slide">Slide 3</div> -->
         <!-- ... -->
@@ -373,26 +336,6 @@
         scrollbar: {
           el: ".swiper-scrollbar",
         },
-      });
-    </script>
-    <script>
-      // Get all images and add click event listener
-      const images = document.querySelectorAll(".photos > img");
-      const lightbox = document.getElementById("lightbox");
-      const lightboxImg = document.getElementById("lightbox-img");
-
-      images.forEach((image) => {
-        image.addEventListener("click", () => {
-          // Set the source of the lightbox image
-          lightboxImg.src = image.src;
-          // Display the lightbox
-          lightbox.style.display = "flex";
-        });
-      });
-
-      // Close the lightbox when clicking outside the image
-      lightbox.addEventListener("click", () => {
-        lightbox.style.display = "none";
       });
     </script>
   </body>
