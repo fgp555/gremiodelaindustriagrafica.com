@@ -1,0 +1,371 @@
+* {
+  /* border: 1px dashed #0808; */
+  margin: 0.3em;
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* text-align: center; */
+  background-color: gold;
+  max-width: 80rem;
+  margin: auto;
+}
+header {
+  /* background-color: #fff; */
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.head-left,
+.head-right {
+  margin-top: 1em;
+}
+.head-left {
+  margin-top: 5em;
+  background-color: #fff;
+  border-radius: 5em;
+  padding: 0.5em 1em;
+  text-align-last: left;
+}
+.head-right a {
+  color: white;
+  font-size: 3em;
+  /* aspect-ratio: 1/1; */
+  width: 1em;
+  /* padding: 0.3em; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2em;
+}
+section {
+  margin-top: 5em;
+}
+h2 {
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #98f;
+}
+.logo {
+  /* aspect-ratio: 1/1; */
+  width: 14em;
+  margin: 1em;
+  margin-right: 8em;
+  /* border-radius: 50%; */
+}
+.portada {
+  background-image: url(img/portada.webp);
+}
+/* nav */
+.nav {
+  /* background-color: #333; */
+  /* color: white; */
+  /* color: #000; */
+  text-align: left;
+  gap: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2em;
+  /* font-weight: ; */
+  margin: 0;
+}
+.nav a {
+  /* color: bisque; */
+  /* font-weight: 900; */
+  /* border-bottom: 1px solid; */
+  /* text-transform: uppercase; */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.nav-left {
+  display: flex;
+  gap: 1.2em;
+}
+.d-none {
+  display: none;
+}
+.consejo-directivo {
+  display: flex;
+  justify-content: space-evenly;
+}
+.consejo-directivo > div {
+  flex: 1 1 auto;
+}
+.consejo-right {
+  margin-top: 11em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 0.5em;
+  /* align-content: center; */
+}
+.consejo-right p {
+  font-size: 1em;
+}
+.consejo-right-bottom {
+  width: 8em;
+}
+.consejo-right img {
+  width: 12em;
+}
+.consejo-right-bottom {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.consejo-right-bottom img {
+  width: 6em;
+}
+.consejo-right-bottom p,
+.consejo-right-top p {
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+}
+.consejo-right-top img {
+  /* float: left; */
+  width: 7em;
+}
+.consejo-right-top p {
+  padding: 0;
+}
+#fines-objetivos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+#fines-objetivos ul {
+  display: flex;
+  flex-direction: column;
+}
+#fines-objetivos li {
+  border-bottom: 1px dashed #000;
+  padding: 0.5em 0;
+  text-align: justify;
+}
+.img-whatsapp {
+  width: 1.4em;
+  margin-left: 5em;
+}
+.bottom-portada p {
+  margin: 1em;
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .consejo-directivo {
+  text-align: left;
+  margin: 5em 9em;
+}
+
+.consejo-directivo h2 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+}
+.gallery {
+  text-align: left;
+}
+.gallery h2 {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: left;
+}
+.swiper-wrapper * {
+  margin: 0;
+}
+/* .swiper-slide {
+  background-color: peru;
+} */
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 80%;
+  /* background-color: gold; */
+  gap: 1vw;
+  font-size: 2vw;
+}
+
+.photos > img {
+  /* flex: 0 1 auto; */
+  /* width: calc(100% / 4);  */
+  /* flex: 1 2 auto; */
+  height: 9em;
+  width: auto;
+
+  /* height: 100%; */
+}
+@media (max-width: 40rem) {
+  .photos {
+    font-size: initial;
+  }
+  .photos img {
+    width: 100%;
+    height: auto;
+  }
+  .swiper {
+    overflow-y: scroll !important;
+  }
+}
+.swiper {
+  width: 80vw;
+  height: 90vh;
+}
+.swiper h2 {
+  text-align: left;
+}
+.desktop-none {
+  display: none;
+}
+.hero {
+  color: white;
+  aspect-ratio: 1640/624;
+  background-color: #558;
+  background-image: url(img/portada.webp?1);
+  background-size: cover;
+  background-position: center;
+  animation: slides 10s cubic-bezier(0, 0, 0, 5) 0s infinite;
+  margin: 0;
+}
+@keyframes slides {
+  50% {
+    background-image: url(img/portada2.webp?1);
+  }
+  100% {
+    background-image: url(img/portada.webp?1);
+  }
+}
+
+#pdf-ley {
+  width: 20em;
+  height: 100%;
+  text-align: center;
+}
+@media (max-width: 80rem) {
+  .head {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: peru; */
+  }
+  .img-whatsapp {
+    width: 1.2em;
+    margin-left: 5em;
+    margin-top: 2.5em;
+    /* margin: 0; */
+    padding: 0;
+    position: absolute;
+  }
+  .logo {
+    margin-right: 0;
+    width: 15em;
+  }
+  .head-left {
+    position: relative;
+    /* margin-top: 14em; */
+    margin-right: 4em;
+    border-radius: 2em;
+  }
+  /* .head-left * {
+    margin: 0;
+    padding: 0;
+  } */
+  .head :nth-child(3) {
+    order: 3;
+    /* margin: 1em; */
+  }
+  .head :nth-child(1) {
+    order: 1;
+    /* margin: 1em; */
+  }
+  .nav,
+  .nav-left {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .nav {
+    display: none;
+  }
+  .nav a {
+    font-size: 0.6em;
+    margin: 0;
+  }
+  .desktop-none {
+    display: flex;
+  }
+  .btn-menu {
+    /* position: absolute; */
+    font-size: 2em;
+  }
+  .consejo-directivo {
+    flex-direction: column;
+  }
+  /* .photos img {
+    width: 90%;
+    display: flex;
+  } */
+  .bottom-portada p {
+    /* margin: 1em; */
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0;
+  }
+  .bottom-portada * {
+    margin: 0;
+  }
+  main .consejo-directivo {
+    /* text-align: left; */
+    margin: 5em 4.2em;
+  }
+  main .consejo-directivo h2 {
+    text-align: left;
+  }
+  .swiper-slide h2 {
+    font-size: 0.7em;
+  }
+  #pdf-ley {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    /* width: 4em; */
+    /* height: 60%; */
+    padding: 2em;
+    text-align: center;
+  }
+}

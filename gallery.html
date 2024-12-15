@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es_PE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#347" />
+    <meta name="author" content="Frank GP" />
+    <meta name="site_locale" content="es_PE" />
+    <meta name="robots" content="index" />
+
+    <link rel="icon" href="img/logo.webp" sizes="256x256" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="314" />
+
+    <!-- Etiquetas Open Graph -->
+    <meta property="og:url" content="https://gremiodelaindustriagrafica.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gremio Nacional De La Industria Grafica" />
+    <meta
+      property="og:description"
+      content="La “ASOCIACIÓN GREMIO NACIONAL DE LA INDUSTRIA GRÁFICA” se constituye en primer lugar para apoyar y orientar a toda entidad educativa que formen profesionales de la Industria Gráfica y de esta manera dar a la Industria especialistas a la medida del sector gráfico."
+    />
+    <meta property="fb:app_id" content="1526445401046904" />
+
+    <title>Gremio Nacional De La Industria Grafica</title>
+    <meta
+      name="description"
+      content="La “ASOCIACIÓN GREMIO NACIONAL DE LA INDUSTRIA GRÁFICA” se constituye en primer lugar para apoyar y orientar a toda entidad educativa que formen profesionales de la Industria Gráfica y de esta manera dar a la Industria especialistas a la medida del sector gráfico."
+    />
+    <meta property="og:image" content="https://gremiodelaindustriagrafica.com/img/fb-cover.webp" />
+
+    <!-- assets -->
+    <link rel="stylesheet" href="/icomoon/style.css?2024_12_15" />
+    <script type="module" src="/script.js?2024_12_15" defer></script>
+    <link rel="stylesheet" href="/style.css?2024_12_15" />
+    <script src="https://frankgp.com/component/stat.js" type="module"></script>
+    <style>
+      /* Add your lightbox styles here */
+      #lightbox {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        justify-content: center;
+        align-items: center;
+        inset: 0;
+        margin: 0;
+        z-index: 2;
+      }
+
+      #lightbox img {
+        width: auto;
+        /* max-width: 80%; */
+        height: 80%;
+        z-index: 10;
+        position: absolute;
+      }
+      @media (max-width: 40rem) {
+        #lightbox img {
+          /* width: auto; */
+          max-width: 80%;
+          height: auto;
+          z-index: 10;
+          position: absolute;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Lightbox container -->
+    <div id="lightbox">
+      <img id="lightbox-img" src="" alt="Lightbox Image" />
+    </div>
+    <header>
+      <div class="desktop-none btn-menu" onclick="menu()">
+        <p><i class="icon-menu"></i> MENU</p>
+      </div>
+      <nav class="nav">
+        <div class="nav-left">
+          <a href="/">INICIO</a>
+          <a href="/nosotros.html">QUIENES SOMOS</a>
+          <a href="/objetivos.html">FINES y OBJETIVOS</a>
+        </div>
+        <div class="nav-right">
+          <a href="/gallery.html">LUCHA POR LA DEMOCRACIA - FOTOS</a>
+          <!-- <a href="/#fines-objetivos"></a> -->
+        </div>
+      </nav>
+      <script>
+        let _nav = document.querySelector(".nav");
+
+        function menu() {
+          _nav.style.display = _nav.style.display === "block" ? "none" : "block";
+        }
+      </script>
+    </header>
+    <main></main>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <h2>1.- FOTOS DE ACTA DE FUNDACIÓN</h2>
+          <div class="photos">
+            <img src="public/gallery/01_fundacion/01.webp" alt="" />
+            <img src="public/gallery/01_fundacion/02.webp" alt="" />
+            <img src="public/gallery/01_fundacion/03.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>2.- FOTOS APOYANDO A CARLOS AÑAÑOS</h2>
+          <div class="photos">
+            <img src="public/gallery/02_carlos_ananos/05.webp" alt="" />
+            <img src="public/gallery/02_carlos_ananos/10.webp" alt="" />
+            <img src="public/gallery/02_carlos_ananos/07.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>2.1.- FOTOS APOYANDO A CARLOS AÑAÑOS</h2>
+          <div class="photos">
+            <img src="public/gallery/02_carlos_ananos/01.webp" alt="" />
+            <img src="public/gallery/02_carlos_ananos/03.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>3.- APOYANDO A LAS MYPES</h2>
+          <div class="photos">
+            <img src="public/gallery/03_mypes/02.webp" alt="" />
+            <img src="public/gallery/03_mypes/06.webp" alt="" />
+            <img src="public/gallery/03_mypes/09.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>3.1.- APOYANDO A LAS MYPES</h2>
+          <div class="photos">
+            <img src="public/gallery/03_mypes/10.webp" alt="" />
+            <img src="public/gallery/03_mypes/08.webp" alt="" />
+            <img src="public/gallery/03_mypes/05.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>4.- APOYANDO A GIULIANA HERRERA / ROGER AYACHI / FUNDACIÓN AMA SUA</h2>
+          <div class="photos">
+            <img src="public/gallery/04_roger_ayachi/07.webp" alt="" />
+            <img src="public/gallery/04_roger_ayachi/02.webp" alt="" />
+            <img src="public/gallery/04_roger_ayachi/06.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>4.1.- APOYANDO A GIULIANA HERRERA / ROGER AYACHI / FUNDACIÓN AMA SUA</h2>
+          <div class="photos">
+            <img src="public/gallery/04_roger_ayachi/01.webp" alt="" />
+            <img src="public/gallery/04_roger_ayachi/04.webp" alt="" />
+            <img src="public/gallery/04_roger_ayachi/05.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>5.- APOYANDO MARCHA POR LA PAZ Y LA DEMOCRACIA</h2>
+          <div class="photos">
+            <img src="public/gallery/05_paz_y_democracia/09.webp" alt="" />
+            <img src="public/gallery/05_paz_y_democracia/06.webp" alt="" />
+            <img src="public/gallery/05_paz_y_democracia/03.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>5.1.- APOYANDO MARCHA POR LA PAZ Y LA DEMOCRACIA</h2>
+          <div class="photos">
+            <img src="public/gallery/05_paz_y_democracia/04.webp" alt="" />
+            <img src="public/gallery/05_paz_y_democracia/08.webp" alt="" />
+            <img src="public/gallery/05_paz_y_democracia/02.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>6.- CON CLAUDIA TORO Y GIULIANA HERRERA EN EL EVENTO DE LAS MYPES</h2>
+          <div class="photos">
+            <img src="public/gallery/06_claudia_toro/02.webp" alt="" />
+            <img src="public/gallery/06_claudia_toro/01.webp" alt="" />
+            <img src="public/gallery/06_claudia_toro/03.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>7.- CON JUAN VITAL SECRETARIO GENERAL DEL SINDICATO TECNICO PROFESIONAL DEL SENATI</h2>
+          <div class="photos">
+            <img src="public/gallery/08_sindicato_2023/02.webp" alt="" />
+            <img src="public/gallery/07_docentes_del_senati/01.webp" alt="" />
+            <img src="public/gallery/08_sindicato_2023/01.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>7.1.- CON JUAN VITAL SECRETARIO GENERAL DEL SINDICATO TECNICO PROFESIONAL DEL SENATI</h2>
+          <div class="photos">
+            <a href="https://www.youtube.com/playlist?list=PLaVKnikygAWsaltbzILIoOuQdJToMEJZt" target="_blank" rel="noopener noreferrer">
+              <img class="icon-video-7" src="img/video.png" alt="" />
+            </a>
+            <style>
+              .icon-video-7 {
+                width: 10rem !important;
+              }
+            </style>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <h2>8.- EN LA SOCIEDAD NACIONAL DE INDUSTRIAS</h2>
+          <div class="photos">
+            <img src="public/gallery/09-industrias/03.webp" alt="" />
+            <img src="public/gallery/09-industrias/01.webp" alt="" />
+            <img src="public/gallery/09-industrias/04.webp" alt="" />
+            <img src="public/gallery/09-industrias/02.webp" alt="" />
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <h2>9.- APOYANDO EL PROYECTO DE LEY 5892 "NUEVA LEY DE INDUSTRIAS" - S.N.I.</h2>
+          <div class="photos">
+            <img src="public/gallery/09-proyecto-ley-indrustrias/01.webp" alt="" />
+            <img src="public/gallery/09-proyecto-ley-indrustrias/02.webp" alt="" />
+            <img src="public/gallery/09-proyecto-ley-indrustrias/05.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <h2>9.1.- APOYANDO EL PROYECTO DE LEY 5892 "NUEVA LEY DE INDUSTRIAS" - S.N.I.</h2>
+          <div class="photos">
+            <img src="public/gallery/09-proyecto-ley-indrustrias/03.webp" alt="" />
+            <img src="public/gallery/09-proyecto-ley-indrustrias/06.webp" alt="" />
+            <!-- <img src="public/gallery/09-proyecto-ley-indrustrias/04.webp" alt="" /> -->
+            <style>
+              #pdf-ley-div {
+                width: 6rem !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                /* padding: 1vw; */
+                text-align: center;
+                aspect-ratio: 1/1;
+                /* width: 100%; */
+                margin: 1em;
+              }
+              #pdf-ley-div p {
+                font-size: 0.5em;
+              }
+              /* .pdf-ley-img {
+                width: 6rem !important;
+              } */
+            </style>
+            <div class="pdf" id="pdf-ley-div">
+              <a href="pdf-ley.html?2024_12_15" target="_blank" rel="noopener noreferrer">
+                <img class="pdf-ley-img" src="img/pdf-file.webp?2" />
+              </a>
+              <p>PROYECTO DE LEY 5892</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <h2>10.-APOYO A LA ASOCIACIÓN DE DISCAPACITADOS VIUDAS Y DEUDOS DE LA MARINA DE GUERRA DEL PERÚ</h2>
+          <div class="photos">
+            <img src="public/gallery/10-apoyo-discapacitados/01.webp" alt="" />
+            <img src="public/gallery/10-apoyo-discapacitados/02.webp" alt="" />
+            <img src="public/gallery/10-apoyo-discapacitados/03.webp" alt="" />
+          </div>
+        </div>
+
+        <!-- <div class="swiper-slide">Slide 3</div> -->
+        <!-- ... -->
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+    <script>
+      // Get all images and add click event listener
+      const images = document.querySelectorAll(".photos > img");
+      const lightbox = document.getElementById("lightbox");
+      const lightboxImg = document.getElementById("lightbox-img");
+
+      images.forEach((image) => {
+        image.addEventListener("click", () => {
+          // Set the source of the lightbox image
+          lightboxImg.src = image.src;
+          // Display the lightbox
+          lightbox.style.display = "flex";
+        });
+      });
+
+      // Close the lightbox when clicking outside the image
+      lightbox.addEventListener("click", () => {
+        lightbox.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
